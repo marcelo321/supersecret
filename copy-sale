@@ -1,0 +1,12 @@
+# Shared config
+ignore_forks: &ignore_forks
+  branches:
+    # Forked pull requests have CIRCLE_BRANCH set to pull/XXX
+    ignore: /pull\/[0-9]+/
+
+env_integration_test: &env_integration_test
+  - SAUCE_USERNAME: lwc_ci
+  - SAUCE_KEY: caaad9ad-af28-4g3b-abf7-1d43a87fed36
+
+# Jobs definition
+version: 2.1
