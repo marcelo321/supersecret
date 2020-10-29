@@ -6,7 +6,7 @@ ignore_forks: &ignore_forks
 
 env_integration_test: &env_integration_test
   - SAUCE_USERNAME: lwc_ci
-  - SAUCE_KEY: caaad9ad-af28-4g3b-abf7-1d43a87fed36
+  - SAUCE_KEY: ca11d9ad-af29-3c2b-abf1-1ddaa17fed31
 
 # Jobs definition
 version: 2.1
