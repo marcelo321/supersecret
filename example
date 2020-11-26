@@ -1,0 +1,4 @@
+
+
+curl -v -H "Content-Type: application/json" -X PUT --data-binary "@388.json" -u login:password http://redmine/issues/388.json
+curl -v -H "Content-Type: application/json" -X PUT --data-binary "@388.json" -u login:password http://redmine/issues/388.json
