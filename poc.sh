@@ -25,16 +25,6 @@
 #  define dprintf
 #endif
 
-#define SAFE(expr) ({                   \
-  typeof(expr) __res = (expr);          \
-  if (__res == -1) {                    \
-    dprintf("[-] Error: %s\n", #expr);  \
-    return 0;                           \
-  }                                     \
-  __res;                                \
-})
-#define max(a,b) ((a)>(b) ? (a) : (b))
-
 static const char *SHELL = "/bin/bash";
 
 static int middle_success = 1;
